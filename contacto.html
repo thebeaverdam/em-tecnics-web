@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto | EM-Tecnics</title>
+  <meta name="description" content="Contacta con EM-Tecnics para reparación, alarmas, hardware, IoT, ESP32, ESPHome o automatización." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo-emtecnics.png" alt="EM-Tecnics"><span class="brand-text"><strong>EM-Tecnics</strong><small>Soluciones técnicas</small></span></a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="site-nav"><a href="em-tecnics.html">EM-Tecnics</a><a href="the-beaver-dam.html">The Beaver Dam</a><a href="proyectos.html">Proyectos</a><a href="contacto.html" class="nav-cta">Contacto</a></nav>
+  </header>
+  <main>
+    <section class="page-hero section compact">
+      <div class="page-logo-pair"><img src="assets/logo-emtecnics.png" alt="EM-Tecnics"><img src="assets/logo-the-beaver-dam.svg" alt="The Beaver Dam"></div>
+      <p class="eyebrow">Contacto</p>
+      <h1>Hablemos de tu reparación, instalación o proyecto.</h1>
+      <p>Indica qué necesitas, qué equipo o sistema tienes y cuál es el objetivo. Te responderemos para valorar el siguiente paso.</p>
+    </section>
+
+    <section class="section contact-layout">
+      <div class="contact-card">
+        <h2>Contacto directo</h2>
+        <p>Para una primera consulta, puedes contactar por teléfono, WhatsApp o correo electrónico.</p>
+        <div class="contact-methods">
+          <a href="tel:+34644514047"><strong>Teléfono</strong><span>+34 644 51 40 47</span></a>
+          <a href="https://wa.me/34644514047"><strong>WhatsApp</strong><span>Enviar mensaje</span></a>
+          <a href="mailto:em.tecnics@gmail.com"><strong>Email</strong><span>em.tecnics@gmail.com</span></a>
+        </div>
+      </div>
+
+      <form class="contact-form" action="mailto:em.tecnics@gmail.com" method="post" enctype="text/plain">
+        <label>Nombre <input name="nombre" type="text" autocomplete="name" required /></label>
+        <label>Email <input name="email" type="email" autocomplete="email" required /></label>
+        <label>Tipo de consulta <select name="tipo"><option>Reparación / servicio técnico</option><option>Instalación de alarma</option><option>Hardware / prototipo</option><option>IoT / automatización</option><option>Otro</option></select></label>
+        <label>Mensaje <textarea name="mensaje" rows="6" required placeholder="Cuéntanos brevemente qué necesitas..."></textarea></label>
+        <button class="button primary" type="submit">Enviar consulta</button>
+        <p class="form-note">Este formulario abre tu cliente de correo. Si prefieres un formulario web sin abrir email, se puede conectar gratis con Netlify Forms, Formspree o Cloudflare Workers.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><p>© <span id="year"></span> EM-Tecnics · The Beaver Dam</p><p><a href="mailto:em.tecnics@gmail.com">em.tecnics@gmail.com</a> · <a href="tel:+34644514047">+34 644 51 40 47</a></p></footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>

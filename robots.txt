@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://em-tecnics.com/sitemap.xml
